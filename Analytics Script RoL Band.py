@@ -1,3 +1,3 @@
 # Databricks notebook source
 # MAGIC %sql
-# MAGIC SELECT * FROM platinum.overall_region
+# MAGIC SELECT SUM(Cedant_Limit) FROM platinum.overall_region
